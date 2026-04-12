@@ -1,0 +1,126 @@
+[{"stream_name":"stderr","time":8.988608205,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.988686728,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.988694688,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.988698956,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.972611232,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.9726606,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.972666885,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.972669814,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":18.72554733,"data":"\n"}
+,{"stream_name":"stdout","time":18.725609532,"data":"Dataset information:\n"}
+,{"stream_name":"stdout","time":18.725617784,"data":"\u003cclass 'pandas.core.frame.DataFrame'\u003e\n"}
+,{"stream_name":"stdout","time":18.725623948,"data":"RangeIndex: 705 entries, 0 to 704\n"}
+,{"stream_name":"stdout","time":18.725629169,"data":"Data columns (total 13 columns):\n"}
+,{"stream_name":"stdout","time":18.725634687,"data":" #   Column                        Non-Null Count  Dtype  \n"}
+,{"stream_name":"stdout","time":18.725640103,"data":"---  ------                        --------------  -----  \n"}
+,{"stream_name":"stdout","time":18.725645266,"data":" 0   Student_ID                    705 non-null    int64  \n"}
+,{"stream_name":"stdout","time":18.72565063,"data":" 1   Age                           705 non-null    int64  \n"}
+,{"stream_name":"stdout","time":18.725655358,"data":" 2   Gender                        705 non-null    object \n"}
+,{"stream_name":"stdout","time":18.725659917,"data":" 3   Academic_Level                705 non-null    object \n"}
+,{"stream_name":"stdout","time":18.725664823,"data":" 4   Country                       705 non-null    object \n"}
+,{"stream_name":"stdout","time":18.725670052,"data":" 5   Avg_Daily_Usage_Hours         705 non-null    float64\n"}
+,{"stream_name":"stdout","time":18.725675532,"data":" 6   Most_Used_Platform            705 non-null    object \n"}
+,{"stream_name":"stdout","time":18.725681312,"data":" 7   Affects_Academic_Performance  705 non-null    object \n"}
+,{"stream_name":"stdout","time":18.725686923,"data":" 8   Sleep_Hours_Per_Night         705 non-null    float64\n"}
+,{"stream_name":"stdout","time":18.72569327,"data":" 9   Mental_Health_Score           705 non-null    int64  \n"}
+,{"stream_name":"stdout","time":18.725698187,"data":" 10  Relationship_Status           705 non-null    object \n"}
+,{"stream_name":"stdout","time":18.725702478,"data":" 11  Conflicts_Over_Social_Media   705 non-null    int64  \n"}
+,{"stream_name":"stdout","time":18.725706839,"data":" 12  Addicted_Score                705 non-null    int64  \n"}
+,{"stream_name":"stdout","time":18.725711538,"data":"dtypes: float64(2), int64(5), object(6)\n"}
+,{"stream_name":"stdout","time":18.725716158,"data":"memory usage: 71.7+ KB\n"}
+,{"stream_name":"stdout","time":18.725721993,"data":"\n"}
+,{"stream_name":"stdout","time":18.72572727,"data":"Summary statistics of numerical variables:\n"}
+,{"stream_name":"stdout","time":18.769858084,"data":"\n"}
+,{"stream_name":"stdout","time":18.769888936,"data":"Unique values in Gender:\n"}
+,{"stream_name":"stdout","time":18.769916127,"data":"Gender\n"}
+,{"stream_name":"stdout","time":18.769920598,"data":"Female    353\n"}
+,{"stream_name":"stdout","time":18.769924171,"data":"Male      352\n"}
+,{"stream_name":"stdout","time":18.769928468,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":18.769932182,"data":"\n"}
+,{"stream_name":"stdout","time":18.76993615,"data":"Unique values in Academic_Level:\n"}
+,{"stream_name":"stdout","time":18.769939973,"data":"Academic_Level\n"}
+,{"stream_name":"stdout","time":18.769943518,"data":"Undergraduate    353\n"}
+,{"stream_name":"stdout","time":18.769947027,"data":"Graduate         325\n"}
+,{"stream_name":"stdout","time":18.769950668,"data":"High School       27\n"}
+,{"stream_name":"stdout","time":18.769954027,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":18.769958279,"data":"\n"}
+,{"stream_name":"stdout","time":18.769961456,"data":"Unique values in Country:\n"}
+,{"stream_name":"stdout","time":18.769965433,"data":"Country\n"}
+,{"stream_name":"stdout","time":18.769968851,"data":"India        53\n"}
+,{"stream_name":"stdout","time":18.769972327,"data":"USA          40\n"}
+,{"stream_name":"stdout","time":18.769975868,"data":"Canada       34\n"}
+,{"stream_name":"stdout","time":18.769979277,"data":"Denmark      27\n"}
+,{"stream_name":"stdout","time":18.76998254,"data":"Ireland      27\n"}
+,{"stream_name":"stdout","time":18.769986663,"data":"             ..\n"}
+,{"stream_name":"stdout","time":18.769990491,"data":"Uruguay       1\n"}
+,{"stream_name":"stdout","time":18.76999422,"data":"Ecuador       1\n"}
+,{"stream_name":"stdout","time":18.769997891,"data":"Venezuela     1\n"}
+,{"stream_name":"stdout","time":18.770001526,"data":"Peru          1\n"}
+,{"stream_name":"stdout","time":18.770005206,"data":"Jamaica       1\n"}
+,{"stream_name":"stdout","time":18.770009127,"data":"Name: count, Length: 110, dtype: int64\n"}
+,{"stream_name":"stdout","time":18.770013075,"data":"\n"}
+,{"stream_name":"stdout","time":18.770016899,"data":"Unique values in Most_Used_Platform:\n"}
+,{"stream_name":"stdout","time":18.770020799,"data":"Most_Used_Platform\n"}
+,{"stream_name":"stdout","time":18.770024942,"data":"Instagram    249\n"}
+,{"stream_name":"stdout","time":18.77002864,"data":"TikTok       154\n"}
+,{"stream_name":"stdout","time":18.77003215,"data":"Facebook     123\n"}
+,{"stream_name":"stdout","time":18.7700356,"data":"WhatsApp      54\n"}
+,{"stream_name":"stdout","time":18.77003922,"data":"Twitter       30\n"}
+,{"stream_name":"stdout","time":18.770043006,"data":"LinkedIn      21\n"}
+,{"stream_name":"stdout","time":18.770047187,"data":"WeChat        15\n"}
+,{"stream_name":"stdout","time":18.77005101,"data":"Snapchat      13\n"}
+,{"stream_name":"stdout","time":18.770056299,"data":"LINE          12\n"}
+,{"stream_name":"stdout","time":18.770060268,"data":"KakaoTalk     12\n"}
+,{"stream_name":"stdout","time":18.770064218,"data":"VKontakte     12\n"}
+,{"stream_name":"stdout","time":18.770067604,"data":"YouTube       10\n"}
+,{"stream_name":"stdout","time":18.770071182,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":18.770074814,"data":"\n"}
+,{"stream_name":"stdout","time":18.77007863,"data":"Unique values in Affects_Academic_Performance:\n"}
+,{"stream_name":"stdout","time":18.770093263,"data":"Affects_Academic_Performance\n"}
+,{"stream_name":"stdout","time":18.770097251,"data":"Yes    453\n"}
+,{"stream_name":"stdout","time":18.770101571,"data":"No     252\n"}
+,{"stream_name":"stdout","time":18.770112599,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":18.770117142,"data":"\n"}
+,{"stream_name":"stdout","time":18.770132207,"data":"Unique values in Relationship_Status:\n"}
+,{"stream_name":"stdout","time":18.77013635,"data":"Relationship_Status\n"}
+,{"stream_name":"stdout","time":18.770140183,"data":"Single             384\n"}
+,{"stream_name":"stdout","time":18.770143593,"data":"In Relationship    289\n"}
+,{"stream_name":"stdout","time":18.770146915,"data":"Complicated         32\n"}
+,{"stream_name":"stdout","time":18.770150905,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":27.073202116,"data":"T-test comparing addiction scores between genders:\n"}
+,{"stream_name":"stdout","time":27.073235826,"data":"t-statistic: -1.3192, p-value: 0.1875\n"}
+,{"stream_name":"stdout","time":27.073241954,"data":"Mean addiction score (Male): 6.36\n"}
+,{"stream_name":"stdout","time":27.07324604,"data":"Mean addiction score (Female): 6.52\n"}
+,{"stream_name":"stdout","time":27.073250194,"data":"Conclusion: No statistically significant difference\n"}
+,{"stream_name":"stdout","time":27.073255001,"data":"\n"}
+,{"stream_name":"stdout","time":27.188356957,"data":"\n"}
+,{"stream_name":"stdout","time":27.188397888,"data":"Correlation Analysis:\n"}
+,{"stream_name":"stdout","time":27.188403612,"data":"Usage Hours vs Addiction Score: 0.8320 (Positive Strong correlation)\n"}
+,{"stream_name":"stdout","time":27.1884077,"data":"Usage Hours vs Sleep Hours: -0.7906 (Negative Strong correlation)\n"}
+,{"stream_name":"stdout","time":27.188411586,"data":"Usage Hours vs Mental Health: -0.8011 (Negative Strong correlation)\n"}
+,{"stream_name":"stdout","time":27.188415773,"data":"Addiction Score vs Relationship Conflicts: 0.9336 (Positive Strong correlation)\n"}
+,{"stream_name":"stdout","time":27.188420091,"data":"Sleep Hours vs Mental Health: 0.7074 (Positive Strong correlation)\n"}
+,{"stream_name":"stderr","time":30.913367586,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":30.913410604,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":30.984342672,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":31.415631,"data":"[NbConvertApp] Writing 1029758 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":33.156128672,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":33.156196515,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":33.190106601,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":34.2634458,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":34.263480781,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.263737746,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.263979941,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.264203649,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.264427264,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.264638242,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.264838041,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.26510408,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.265626871,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.265651519,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.265657715,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.265786959,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.265931567,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.266145295,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.266341999,"data":"[NbConvertApp] Writing 464140 bytes to __results__.html\n"}
+]
